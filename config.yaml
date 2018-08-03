@@ -1,0 +1,14 @@
+mqtt:
+    host: hostname
+    port: 8883
+    ca_cert: ca-chain.crt
+    username: tbd
+    password: tbd
+
+sensors:
+    type: reed
+    name: Garage door
+    pin_number: 20
+    reading_type: event
+    normally_closed: True
+    topic: '/sensors/garage_door/state
